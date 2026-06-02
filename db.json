@@ -1,4 +1,12 @@
 {
-    "users": [],
-    "posts": []
-  }
+  "users": [
+    {
+      "name": "sakshi kumari",
+      "email": "sakhsiktpss@gmail.com",
+      "password": "test@123",
+      "id": "nvGRuAdq8Y4"
+    }
+  ],
+  "posts": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

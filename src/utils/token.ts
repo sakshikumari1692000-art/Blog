@@ -1,6 +1,9 @@
 const TOKEN_KEY = "blog_token"
 const USER_KEY = "blog_user"
 
+export function generateFakeToken(userId: string, email: string): string{
+  return btoa(`${userId}:${email}:${Date.now()}`)
+}
 export function saveToken(token: string): void {
   localStorage.setItem(TOKEN_KEY, token)
 }

@@ -2,9 +2,15 @@
   "users": [
     {
       "name": "sakshi kumari",
-      "email": "sakhsiktpss@gmail.com",
+      "email": "sakshiktpss@gmail.com",
       "password": "test@123",
       "id": "nvGRuAdq8Y4"
+    },
+    {
+      "name": "Sofiya",
+      "email": "sofiya123@gmail.com",
+      "password": "sofia@123",
+      "id": "70k697Pj0g8"
     }
   ],
   "posts": [],

@@ -13,6 +13,23 @@
       "id": "70k697Pj0g8"
     }
   ],
-  "posts": [],
+  "posts": [
+    {
+      "id": "1",
+      "title": "My First Blog Post",
+      "content": "This is my first blog post on BlogApp. Very excited to start writing here!",
+      "authorId": "1",
+      "authorName": "Rahul",
+      "createdAt": "2024-01-15T10:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Learning React TypeScript",
+      "content": "Today I learned about TypeScript interfaces and how they make React development so much better!",
+      "authorId": "1",
+      "authorName": "Rahul",
+      "createdAt": "2024-01-16T14:00:00.000Z"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

@@ -5,6 +5,7 @@ import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignupPage'
 import HomePage from './pages/HomePage'
 import ProtectedRoute from './components/ProtectedRoute'
+import PostPage from './pages/PostPage'
 
 function AppContent() {
   const { isLoggedIn, login, logout } = useAuth()
@@ -18,6 +19,14 @@ function AppContent() {
           element={
             <ProtectedRoute>
               <HomePage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/post/:id"
+          element={
+            <ProtectedRoute>
+              <PostPage />
             </ProtectedRoute>
           }
         />
